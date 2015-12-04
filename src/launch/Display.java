@@ -21,7 +21,7 @@ public class Display {
 			appgc = new AppGameContainer(new Game(Display.TITLE));
 			appgc.setDisplayMode(Display.WIDTH, Display.HEIGHT, false);
 			appgc.setTargetFrameRate(60);
-			appgc.setShowFPS(true);
+			appgc.setShowFPS(false);
 			appgc.start();
 		} catch (SlickException ex) {
 			Logger.getLogger(Game.class.getName()).log(Level.SEVERE, null, ex);
